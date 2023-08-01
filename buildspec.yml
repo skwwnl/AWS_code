@@ -11,7 +11,6 @@ phases:
       - echo "Starting tests"
   build:
     commands:
-      - cd src
       - python3 test.py
   post_build:
     commands:
